@@ -2,6 +2,7 @@
 body {
     margin: 0px;
     background-color: #f7f7f7;
+    font-family: cursive, 'SimHei', 'Meiryo';
 }
 
 header {
@@ -64,19 +65,6 @@ header nav ul li:first-child:hover {
     background-color: #aaaaff;
 }
 
-footer {
-    /*position: absolute;
-    bottom: 0;*/
-    width: 1200px;
-    height: 50px;
-    line-height: 50px;
-    margin: 0 auto;
-    text-align: center;
-    color: #A834F0;
-    background-color: #0b303b;
-}
-
-
 #wrapper {
     width: 1200px;
     height: auto;
@@ -84,61 +72,6 @@ footer {
     background-color: #ffffff;
     overflow: hidden;
 }
-
-#wapper #main-page {
-    width: 1200px;
-    height: 400px;
-}
-
-#wrapper #info {
-    float: left;
-    width: 800px;
-    height: 300px;
-    margin: 20px 0 30px 30px;
-}
-
-#wrapper #info h2 {
-    width: 790px;
-    height: 50px;
-    line-height: 50px;
-    margin: 0;
-    padding: 0 0 0 10px;
-    color: #0b303b;
-    background-color: #28a6cc;
-}
-
-#wrapper #info div {
-    width: 798px;
-    height: 249px;
-    border: 1px solid #408ca3;
-}
-
-#wrapper #info div p {
-    font-size: 23px;
-    padding: 0 0 0 20px;
-    text-decoration: underline;
-}
-
-#wrapper #categoly {
-    float: right;
-    width: 150px;
-    margin: 20px 100px 30px 0;
-    border: 1px solid #408ca3;
-}
-
-#wrapper #categoly li {
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    color: #394548;
-}
-/*
-#wrapper #categoly li {
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    color: #394548;
-}*/
 
 #page-top {
     position: fixed;
@@ -157,4 +90,16 @@ footer {
     color: #92e5fe;
     text-align: center;
 
+}
+
+footer {
+    /*position: absolute;
+    bottom: 0;*/
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: #A834F0;
+    background-color: #0b303b;
 }
