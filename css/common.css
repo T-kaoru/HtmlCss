@@ -56,14 +56,24 @@ header nav ul li:hover {
     background-color: #aaaaaa;
 }
 
+header nav ul li a:visited {
+    color: #afdfdf;
+}
+
+header nav ul li a:link {
+    color: #62b4cc;
+}
+
 header nav ul li:first-child {
     width: 120px;
-    background-color: #504060;
+    background-color: #3f4d4f;
 }
 
 header nav ul li:first-child:hover {
-    background-color: #aaaaff;
+    background-color: #a8a8f8;
 }
+
+
 
 #wrapper {
     width: 1200px;
