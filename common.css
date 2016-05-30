@@ -1,0 +1,36 @@
+
+body {
+    margin: 0px;
+    background-color: #f7f7f7;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    /*text-align: center;*/
+}
+
+h1 {
+    height: 60px;
+    line-height: 60px;
+    /*margin: 0 auto;*/
+    color: #22454f;
+    background-color: #28a6cc;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+header ul {
+    width: 1200px;
+    height: 40px;
+    list-style-position: inside;
+}
+
+header ul li {
+    float: left;
+    width: 40px;
+    color: #62b4cc;
+    background-color: #394548;
+    text-align: center;
+}
